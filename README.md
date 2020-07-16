@@ -1,6 +1,6 @@
 # music_app Concept Layout
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/Y3Z9VjXlBj4WSsIJ9C/giphy.gif)
 
 
 
