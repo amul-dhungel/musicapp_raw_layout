@@ -1,5 +1,7 @@
 # music_app Concept Layout
 
+<img src="Screenshots/home.JPG">
+
 ![Alt Text](https://media.giphy.com/media/Y3Z9VjXlBj4WSsIJ9C/giphy.gif)
 
 
