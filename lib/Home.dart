@@ -45,69 +45,73 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-      body: Container(
-        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(14.0),
-              child: Container(
-                height: 100,
-                width: MediaQuery.of(context).size.width,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    Row(
-                      children: [
-                        Genre(),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Genre(),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Genre(),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Genre(),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Text(
-                'Collection',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.grey[700],
-                  fontSize: 25.0,
-                ),
-              ),
-            ),
-
-            //Grid view .
-
-            Container(
-                height: 420,
-                width: 400,
-                child: GridView.count(
-                  childAspectRatio: 0.7,
-                  crossAxisCount: 3,
-                  children: List.generate(
-                    10,
-                    (index) => Collections(
-                      singerName: 'Hendrix',
-                      numberOfSongs: 'Songs 20',
-                    ),
+      body: Center(
+        child: Container(
+          padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(14.0),
+                child: Container(
+                  height: 100,
+                  width: MediaQuery.of(context).size.width,
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: [
+                      Row(
+                        children: [
+                          Genre(),
+                          SizedBox(
+                            width: 20,
+                          ),
+                          Genre(),
+                          SizedBox(
+                            width: 20,
+                          ),
+                          Genre(),
+                          SizedBox(
+                            width: 20,
+                          ),
+                          Genre(),
+                        ],
+                      ),
+                    ],
                   ),
-                )),
-          ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  'Collection',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey[700],
+                    fontSize: 25.0,
+                  ),
+                ),
+              ),
+
+              //Grid view .
+
+              Center(
+                child: Container(
+                    height: 420,
+                    width: 400,
+                    child: GridView.count(
+                      childAspectRatio: 0.7,
+                      crossAxisCount: 3,
+                      children: List.generate(
+                        10,
+                        (index) => Collections(
+                          singerName: 'Hendrix',
+                          numberOfSongs: 'Songs 20',
+                        ),
+                      ),
+                    )),
+              ),
+            ],
+          ),
         ),
       ),
 
