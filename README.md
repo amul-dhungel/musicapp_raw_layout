@@ -1,5 +1,14 @@
 # music_app Concept Layout
 
+<img src="Screenshots/home.JPG">
+
+
+
+<img src="https://media.giphy.com/media/Y3Z9VjXlBj4WSsIJ9C/giphy.gif" width="350" height="700" />
+
+
+
+
 This is the layout concept of music app developed from flutter framework
 
 ## Getting Started
